@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Restaurant</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">    
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Yummy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events">Event</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#chefs">Chefs</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="galleryDropdown" role="button" data-bs-toggle="dropdown">
+                            Gallery
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#gallery">Photos</a></li>
+                            <li><a class="dropdown-item" href="#gallery">Videos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#book">Book Table</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+   <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to Yummy</h1>
+            <p>Fine Dining & Culinary Delights</p>
+          
+            <a href="#book" class="btn btn-danger">Book a Table</a>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about text-center bg-light">
+        <div class="container">
+            <h2 class="section-title mb-4">About Us</h2>
+            <p>Yummy Restaurant offers an unforgettable culinary experience with a fusion of modern and traditional dishes.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu text-center">
+        <div class="container">
+            <h2 class="section-title mb-4">Our Menu</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="image/pasta-7475756_1280.jpg" alt="Dish">
+                    <h5 class="mt-3">Italian Pasta</h5>
+                    <p>$20.00</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="image/pizza-6004079_1280.jpg" alt="Dish">
+                    <h5 class="mt-3">Cheesy Pizza</h5>
+                    <p>$18.00</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="image/momos-6749181_1280.jpg" alt="Dish">
+                    <h5 class="mt-3">steam momos</h5>
+                    <p>$25.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Section -->
+    <section id="events" class="events text-center bg-light">
+        <div class="container">
+            <h2 class="section-title mb-4">Upcoming Events</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <img src="image/wine-4644577_1280.jpg" alt="Event">
+                    <h5 class="mt-3">Wine Tasting Night</h5>
+                    <p>March 30, 2025 - Exclusive wine and cheese tasting event.</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <img src="image/concert-4768496_1280.jpg" alt="Event">
+                    <h5 class="mt-3">Live Jazz Evening</h5>
+                    <p>April 15, 2025 - Enjoy gourmet meals with live jazz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chefs Section -->
+    <section id="chefs" class="chefs text-center">
+        <div class="container">
+            <h2 class="section-title mb-4">Meet Our Chefs</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="image/platting-4282016_1280.jpg" alt="Chef">
+                    <h5 class="mt-3">Chef Maria</h5>
+                    <p>Master of Italian Cuisine</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://images.unsplash.com/photo-1528712306091-ed0763094c98?auto=format&fit=crop&w=800&q=80" alt="Chef">
+                    <h5 class="mt-3">Chef David</h5>
+                    <p>Grill Specialist</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80" alt="Chef">
+                    <h5 class="mt-3">Chef Emma</h5>
+                    <p>Pastry Expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery bg-light text-center">
+        <div class="container">
+            <h2 class="section-title mb-4">Gallery</h2>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=800&q=80" alt="Gallery Image">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="image/food-6697405_1280.jpg" alt="Gallery Image">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="image/food-2933528_1280.jpg" alt="Gallery Image">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="image/manchurian-6971355_1280.jpg" alt="Gallery Image">
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Videos Section -->
+<section id="videos" class="image/gallery bg-light text-center">
+    <div class="container">
+        <h2 class="section-title mb-4">Video Gallery</h2>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <video controls width="100%">
+                    <source src="image/video6267253932301491376.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="col-md-6 mb-3">
+                <video controls width="100%">
+                    <source src="image/video6267253932301491375.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact text-center">
+        <div class="container">
+            <h2 class="section-title mb-4">Contact Us</h2>
+            <p>Email: info@yummy.com | Phone: +123 456 7890</p>
+        </div>
+    </section>
+
+    <!-- Book Table Section -->
+    <section id="book" class="book-table text-center bg-light">
+        <div class="container">
+            <h2 class="section-title mb-4">Book a Table</h2>
+            <form class="row g-3 justify-content-center" id="bookingForm">
+                <div class="col-md-5">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-5">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="col-md-5">
+                    <input type="date" class="form-control" required>
+                </div>
+                <div class="col-md-5">
+                    <input type="time" class="form-control" required>
+                </div>
+                <div class="col-md-5">
+                    <button type="submit" class="btn btn-danger w-100">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Yummy Restaurant | All Rights Reserved
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Your table has been booked! See you soon.');
+            this.reset();
+        });
+    </script>
+
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,43 @@
+ .body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .navbar {
+            background-color: #e74c3c;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .hero {
+            background: url(image/gallery-3.jpg) center/cover no-repeat;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+        }
+       
+    
+        .section-title {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .menu img, .gallery img, .chefs img, .events img {
+            object-fit: cover;
+            height: 250px;
+            border-radius: 10px;
+            width: 100%;
+        }
+        .about, .events, .chefs, .gallery, .contact, .book-table {
+            padding: 60px 0;
+        }
+        .footer {
+            background-color: #e74c3c;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    
